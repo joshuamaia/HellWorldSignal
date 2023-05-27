@@ -1,0 +1,12 @@
+.botoes {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.botoes > button {
+  margin: 20px;
+}
+
+.botoes > strong {
+  font-size: 20px;
+}

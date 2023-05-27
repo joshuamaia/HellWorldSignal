@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 botoes">
+      <button (click)="incremetar()" class="btn btn-primary">
+        Incrementar
+      </button>
+      <strong>{{ contador() }}</strong>
+      <button (click)="decrementar()" class="btn btn-primary">
+        Decrementar
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <table class="table table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let acao of acoes()">
+            <td>{{ acao }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

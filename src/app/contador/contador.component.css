@@ -10,7 +10,7 @@
 
 .container {
   margin-top: 50px;
-  background: #fff;
+  background: #87cefa;
   border-radius: 6px;
 }
 
@@ -21,7 +21,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background: #e6e6fa;
+  background: #b0c4de;
 }
 
 tr:nth-child(odd) {

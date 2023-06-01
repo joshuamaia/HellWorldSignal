@@ -3,6 +3,31 @@
   margin-top: 50px;
 }
 
+.tabela {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+th {
+  background-color: #1f1f92;
+  color: #fff;
+  border-radius: 6px;
+}
+
+tr:nth-child(even) {
+  background: #e6e6fa;
+}
+
+tr:nth-child(odd) {
+  background: #f0ffff;
+}
+
 .botoes > button {
   margin: 20px;
 }
